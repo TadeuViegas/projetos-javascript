@@ -17,11 +17,11 @@ function contar() {
         valorPasso = 1;
       }
       if(valorInicial < valorFinal){
-        anwser.innerHTML = 'Contagem:<br>';
+        anwser.innerHTML = 'Contagem:<br>'; // contagem crescente
         for(let c = valorInicial; c <= valorFinal; c+= valorPasso){
           anwser.innerHTML += `${c} \u{27A1}`
         }
-      } else if (valorInicial > valorFinal){
+      } else if (valorInicial > valorFinal){ // contagem decrescente
           anwser.innerHTML = 'Contagem:<br>';
           for(let c = valorInicial; c >= valorFinal; c-= valorPasso){
             anwser.innerHTML += `${c} \u{27A1}`
