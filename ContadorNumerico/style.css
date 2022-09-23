@@ -1,0 +1,22 @@
+html{
+  font: normal 16px times;
+}
+
+body{
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+section{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px 5px red;
+  /* box-shadow: eixoX(h) eixoY(v) blur espalhamento cor  */
+  color: black;
+  line-height: 2rem;
+  margin: auto;
+  padding: 15px 15px  15px;
+  text-align: left;
+  width: 300px;
+}
