@@ -10,5 +10,5 @@ Um site que calcula a idade de acordo com o ano atual (sistema) e a interação 
 <img src="https://media.giphy.com/media/kO3cNkDqdGPj3uQQ2R/giphy.gif" alt="exec projeto2.js"/>
 
 - Projeto 3: Contador Numérico <br>
-Um site que mostra um contador que recebe do usuário 3 valores: inicio, fim e passo. A contagem começa a partir do valor inicial até o valor final contando de passo em passo. Fiz validaçoes para que o valor inicial não possa ser vazio ou zero, e o valor do passo precisar ser maior do que zero, senão receberá o valor de 1 e seguirá o fluxo.
-<img src="./contadornumerico/img/contador.jpg" alt="exec projeto3.js"/>
+Um site que mostra um contador que recebe do usuário 3 valores: inicio, fim e passo. A contagem começa a partir do valor inicial até o valor final contando de passo em passo. Fiz validaçoes para que o valor inicial não possa ser vazio ou zero, e o valor do passo precisar ser maior do que zero, senão receberá o valor de 1 e seguirá o fluxo. <br>
+<img src="./contadornumerico/img/contador.jpg" widht="450" height="300" alt="exec projeto3.js"/>
