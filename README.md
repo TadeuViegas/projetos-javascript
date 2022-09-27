@@ -12,3 +12,7 @@ Um site que calcula a idade de acordo com o ano atual (sistema) e a interação 
 - Projeto 3: Contador Numérico <br>
 Um site que mostra um contador que recebe do usuário 3 valores: inicio, fim e passo. A contagem começa a partir do valor inicial até o valor final contando de passo em passo. Fiz validaçoes para que o valor inicial não possa ser vazio ou zero, e o valor do passo precisar ser maior do que zero, senão receberá o valor de 1 e seguirá o fluxo. <br>
 <img src="https://media.giphy.com/media/ywxyK8ONHZ42WKq5jg/giphy.gif" alt="exec projeto3.js" />
+
+- Projeto 4: Tabuada <br>
+Um site que calcula e mostra a tabuada de qualquer número real, com uma validação que não pode usar o zero! Usando uma caixa de seleção <code> tag select </code> para mostrar o resultado. Criando elementos options dinamicamente usando javascript. <code> createElement </code>
+<img src="https://media.giphy.com/media/qrHqHWwEuI3Rb4sKDA/giphy.gif" alt="exec projeto4.js" />
