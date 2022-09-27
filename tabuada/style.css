@@ -1,0 +1,19 @@
+html{
+  font: normal 16px times;
+  background-color: black;
+  text-align: center;
+  color: white;
+
+}
+
+form{
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px red;
+  color: black;
+  width: 350px;
+  background-color: white;
+  margin: auto;
+  text-align: left;
+  line-height: 2rem;
+  padding: 10px;
+}
