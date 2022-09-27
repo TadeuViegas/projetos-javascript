@@ -12,7 +12,7 @@ section{
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 15px 5px red;
-  /* box-shadow: eixoX(h) eixoY(v) blur espalhamento cor  */
+  /* box-shadow: eixoX(h) eixoY(v) blur(desfoque) spread(espalhamento) cor  */
   color: black;
   line-height: 2rem;
   margin: auto;
