@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concessionária Viégas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Concessionária Viégas</h1>
+    <p>Promoção seu carro novo sem JUROS!!</p>
+
+    <form>
+      <label for="carro">Veiculo: R$</label>
+      <input id="carro" type="text" placeholder="Nome do carro" /> <br />
+
+      <label for="valor">Valor: R$</label>
+      <input id="valor" type="number" /> <br />
+
+      <label for="percentual">Percentual de entrada: </label>
+      <input id="percentual" type="number" placeholder="entre 30 e 90%" /> %<br />
+
+      <label for="parcelas">Número de parcelas: </label>
+      <input id="parcelas" type="number" placeholder="de 3 a 24 vezes" /> X<br />
+
+      <input type="button" value="Calcular" onclick="calcularJuros()">
+    </form>
+
+    <p id="resultado">Preencha os campos e click no botão "Calcular"</p>
+    TODO => com o id resultado posso adicionar varias frases abaixo para printar os calculos
+    
+    <!-- <p>Valor de Entrada a pagar: <span id="valorEntrada"></span></p>
+    <p>Quantidade de parcelas: <span id="quantParcelas"></span></p>
+    <p>Valor de cada parcela: <span id="valorParcela"></span></p> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

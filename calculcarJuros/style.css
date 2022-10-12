@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(153, 153, 161);
+  font: normal 16px times;
+  text-align: center;
+}
+
+form{
+  background-color: blueviolet;
+  width: 350px;
+  padding: 15px;
+  line-height: 2rem;
+  text-align: left;
+  margin: auto;
+}
+
+/* TODO - add more
+- palheta de cores */
