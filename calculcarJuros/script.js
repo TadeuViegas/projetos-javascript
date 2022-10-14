@@ -21,13 +21,13 @@ function calcularJuros(){
     } else if (Number(percentual) < 30 || Number(percentual) > 90){
       alert('O percentual de entrada deve ser entre 30 e 90%');
     } else{
+      resultado.innerHTML = `<p>_______ Dados do cliente _______</p>`;
+      resultado.innerHTML += `<p>Veículo: ${nome}</p>`;
+      let valorEntrada = valor * percentual/100;
+      let valorParcela = (valor - valorEntrada)/qntParcelas;
+      resultado.innerHTML += `<p>Valor a ser pago: R$${valor - valorEntrada}</p>`;
+      resultado.innerHTML += `<p>Quantidade de parcelas: ${qntParcelas}</p>`;
+      resultado.innerHTML += `<p>Conta: ${qntParcelas}x de ${valorParcela}</p>`;
     }
-    resultado.innerHTML = `<p>_______ Os dados do cliente _______</p>`;
-    resultado.innerHTML += `<p>Veículo: ${nome}</p>`;
-    let valorEntrada = valor * percentual/100;
-    let valorParcela = (valor - valorEntrada)/qntParcelas;
-    resultado.innerHTML += `<p>Valor a ser pago: R$${valor - valorEntrada}</p>`;
-    resultado.innerHTML += `<p>Quantidade de parcelas: ${qntParcelas}</p>`;
-    resultado.innerHTML += `<p>Conta: ${qntParcelas}x de ${valorParcela}</p>`;
 
 }
