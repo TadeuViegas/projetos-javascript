@@ -25,9 +25,10 @@ function calcularJuros(){
       resultado.innerHTML += `<p>Veículo: ${nome}</p>`;
       let valorEntrada = valor * percentual/100;
       let valorParcela = (valor - valorEntrada)/qntParcelas;
+      resultado.innerHTML += `<p>Valor de Entrada: R$${valorEntrada}</p>`;
       resultado.innerHTML += `<p>Valor a ser pago: R$${valor - valorEntrada}</p>`;
       resultado.innerHTML += `<p>Quantidade de parcelas: ${qntParcelas}</p>`;
-      resultado.innerHTML += `<p>Conta: ${qntParcelas}x de ${valorParcela}</p>`;
+      resultado.innerHTML += `<p>Parcelamento: ${qntParcelas}x de ${valorParcela}</p>`;
     }
 
 }

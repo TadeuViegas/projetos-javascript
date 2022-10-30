@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(44deg, #1e17b1 10%, #e0e0e060 80%);
+  background: linear-gradient(180deg, #1e17b1 20%, #b4b3b360 90%);
   height: 100%;
   font: normal 16px times;
   text-align: center;
@@ -13,7 +13,7 @@ img{
 form {
   /* From https://css.glass */
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.486);
+  border: 1px solid #ffffff7c;
   width: 180px;
   padding: 30px;
   line-height: 1.7rem;
@@ -26,6 +26,12 @@ form {
   padding: 5px;
 }
 
-/* TODO - add more
-- palheta de cores */
-https://www.instagram.com/p/Cji1carADUG/
+.redes a img{
+  width: 50px;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.redes a img:hover{
+  box-shadow: 1px 1px 1px 1px;
+}
