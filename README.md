@@ -16,3 +16,10 @@ Um site que mostra um contador que recebe do usuário 3 valores: inicio, fim e p
 - Projeto 4: Tabuada <br>
 Um site que calcula e mostra a tabuada de qualquer número real, com uma validação que não pode usar o zero! Usando uma caixa de seleção <code> tag select </code> para mostrar o resultado. Criando elementos options dinamicamente usando javascript. <code> createElement </code>
 <img src="https://media.giphy.com/media/qrHqHWwEuI3Rb4sKDA/giphy.gif" alt="exec projeto4.js" />
+
+- Projeto 5: Concessionária <br>
+O desafio é desenvolver uma página web para ajudar os vendedores de uma concessionária a calcular os valores de entrada e parcela dos veículos.
+Regras: Na página deve conter os campos para o vendedor informar o nome do veiculo e seu valor, percentual de entrada e número de parcelas.
+O programa deve retornar o valor de entrada com a quantidade de parcelas e o valor de cada parcela.
+Sendo que a entrada deve ser no minimo 30% e no maximo 90% com a quantidade de parcelas entre 3 e 24x.<br>
+<img src="https://media.giphy.com/media/RcBxPZELkulBbF9luN/giphy.gif" alt="exec projeto5.js">
